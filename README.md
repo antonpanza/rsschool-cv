@@ -1,2 +1,2 @@
 # rsschool-cv
-CV
+https://antonpanza.github.io/rsschool-cv/cv
