@@ -7,18 +7,93 @@
     --yellow-color: #EEC52A;
     --red-color: #DF3931;
     --blue-color: #25285E;
+
+    --body-font: 'FFGoodPro Regular', sans-serif;
+    --title-font: 'FFGoodProXCond Bold', sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+/* Обычный */
+@font-face {
+    font-family: 'FFGoodPro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FFGoodPro Regular'),
+    url('/assets/fonts/FFGoodPro-Regular.woff2') format('woff2'),
+    url('/assets/fonts/FFGoodPro-Regular.woff') format('woff'),
+    url('/assets/fonts/FFGoodPro-Regular.ttf') format('ttf'),
+    url('/assets/fonts/FFGoodPro-Regular.eot') format('eot');
+}
+.text-1 {
+    font-family: 'FFGoodPro Regular';
+}
+
+
+/* Обычный */
+@font-face {
+    font-family: 'FFGoodProXCond Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FFGoodProXCond Regular'),
+    url('/assets/fonts/FFGoodProXCond-Regular.woff2') format('woff2'),
+    url('/assets/fonts/FFGoodProXCond-Regular.woff') format('woff'),
+    url('/assets/fonts/FFGoodProXCond-Regular.ttf') format('ttf'),
+    url('/assets/fonts/FFGoodProXCond-Regular.eot') format('eot');
+}
+.text-1 {
+    font-family: 'FFGoodProXCond Regular';
+}
+
+/* Жирный */
+@font-face {
+    font-family: 'FFGoodProXCond Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('FFGoodProXCond Bold'),
+    url('/assets/fonts/FFGoodProXCond-Bold.woff2') format('woff2'),
+    url('/assets/fonts/FFGoodProXCond-Bold.woff') format('woff'),
+    url('/assets/fonts/FFGoodProXCond-Bold.ttf') format('ttf'),
+    url('/assets/fonts/FFGoodProXCond-Bold.eot') format('eot');
+}
+.text-2 {
+    font-family: 'FFGoodProXCond Bold';
+    font-weight: bold;
+}
+
+
+
 body {
     background-color: var(--bg-color);
+    font-family: var(--body-font);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+}
+.section-title {
+    text-transform: uppercase;
 }
 .darked {
     background-color: var(--darked-bgc);
 }
 
+.header {
+    display: flex;
+}
+.navbar {
+    margin-left: auto;
+}
+.nav__list {
+    list-style: none;
+}
+@media screen and (min-width: 968px) {
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 
 
@@ -33,6 +108,14 @@ body {
 .welcome__png img {
     width: 100%;
     display: flex;
+}
+.welcome__png p {
+    text-transform: uppercase;
+    color: var(--bg-color);
+    font-size: 74px;
+    text-align: end;
+    font-family: var(--title-font);
+    line-height: 85%;
 }
 .original__img {
     position: relative;
@@ -61,6 +144,40 @@ body {
     right: 0;
     z-index: 5;
 }
+
+
+
+/*code editor*/
+.highlight {
+    background-color: #f8f8f8;
+}
+.highlight pre{
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    border-radius: 3px;
+    border: 1px solid var(--title-color);
+}
+.highlight .c1 {
+    color: #999988;
+    font-style: italic;
+}
+.highlight .na {
+    color: #008080;
+}
+.highlight .nb {
+    color: #0086B3;
+}
+.highlight .s1 {
+    color: #d14;
+}
+.highlight .kd {
+    color: #000000;
+    font-weight: bold;
+}
+
+/*/.code editor*/
 
 /* FOOTER */
 /* /. FOOTER */
