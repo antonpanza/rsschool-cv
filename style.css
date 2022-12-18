@@ -22,10 +22,10 @@
     font-style: normal;
     font-weight: normal;
     src: local('FFGoodPro Regular'),
-    url('/assets/fonts/FFGoodPro-Regular.woff2') format('woff2'),
-    url('/assets/fonts/FFGoodPro-Regular.woff') format('woff'),
-    url('/assets/fonts/FFGoodPro-Regular.ttf') format('ttf'),
-    url('/assets/fonts/FFGoodPro-Regular.eot') format('eot');
+    url('./assets/fonts/FFGoodPro-Regular.woff2') format('woff2'),
+    url('./assets/fonts/FFGoodPro-Regular.woff') format('woff'),
+    url('./assets/fonts/FFGoodPro-Regular.ttf') format('ttf'),
+    url('./assets/fonts/FFGoodPro-Regular.eot') format('eot');
 }
 .text-1 {
     font-family: 'FFGoodPro Regular';
@@ -38,10 +38,10 @@
     font-style: normal;
     font-weight: normal;
     src: local('FFGoodProXCond Regular'),
-    url('/assets/fonts/FFGoodProXCond-Regular.woff2') format('woff2'),
-    url('/assets/fonts/FFGoodProXCond-Regular.woff') format('woff'),
-    url('/assets/fonts/FFGoodProXCond-Regular.ttf') format('ttf'),
-    url('/assets/fonts/FFGoodProXCond-Regular.eot') format('eot');
+    url('./assets/fonts/FFGoodProXCond-Regular.woff2') format('woff2'),
+    url('./assets/fonts/FFGoodProXCond-Regular.woff') format('woff'),
+    url('./assets/fonts/FFGoodProXCond-Regular.ttf') format('ttf'),
+    url('./assets/fonts/FFGoodProXCond-Regular.eot') format('eot');
 }
 .text-1 {
     font-family: 'FFGoodProXCond Regular';
@@ -53,10 +53,10 @@
     font-style: normal;
     font-weight: bold;
     src: local('FFGoodProXCond Bold'),
-    url('/assets/fonts/FFGoodProXCond-Bold.woff2') format('woff2'),
-    url('/assets/fonts/FFGoodProXCond-Bold.woff') format('woff'),
-    url('/assets/fonts/FFGoodProXCond-Bold.ttf') format('ttf'),
-    url('/assets/fonts/FFGoodProXCond-Bold.eot') format('eot');
+    url('./assets/fonts/FFGoodProXCond-Bold.woff2') format('woff2'),
+    url('./assets/fonts/FFGoodProXCond-Bold.woff') format('woff'),
+    url('./assets/fonts/FFGoodProXCond-Bold.ttf') format('ttf'),
+    url('./assets/fonts/FFGoodProXCond-Bold.eot') format('eot');
 }
 .text-2 {
     font-family: 'FFGoodProXCond Bold';
