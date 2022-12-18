@@ -6,12 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV | Anton Panza</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header">
     <div class="header__logo">
-        <<span>panza</span>/></div>
+        <<span>Panza</span>/></div>
     <div class="navbar">
         <ul class="nav__list">
             <li class="nav__item">
@@ -58,19 +59,142 @@
     </div>
 </header>
 <main>
-    <div class="welcome darked">
+    <section class="welcome darked">
         <div class="welcome__wrapper">
             <div class="welcom__title">Anton Panza</div>
             <div class="welcom__text">JS-FE developer</div>
+            <ul class="home__address">
+                <li class="home__information">
+                    <i class="bx bx-map home__icon"></i>Moldova, Tiraspol
+                </li>
+                <li class="home__information">
+                    <i class="bx bx-envelope home__icon"></i><a href="mailto:antonpantsa@gmail.com">antonpantsa@gmail.com</a>
+                </li>
+                <li class="home__information">
+                    <i class="bx bx-phone home__icon"></i><a href="tel:+37377545434">+(373)775-45-434</a>
+                </li>
+            </ul>
+            <section class="social" id="social">
+                <h2 class="section-title">social</h2>
+                <p class="section-subtitle">Reach out to me via:</p>
+                <ul class="social__container">
+                    <li class="social__item">
+                        <a href="https://www.linkedin.com/in/antonpanza/" target="_blank" class="social__link">
+                            <i class="bx bxl-linkedin social__icon"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://twitter.com/antonpanza" target="_blank" class="social__link">
+                            <i class="bx bxl-twitter social__icon"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://www.instagram.com/anton.panza/" target="_blank" class="social__link">
+                            <i class="bx bxl-instagram social__icon"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://vk.com/id46324568" target="_blank" class="social__link">
+                            <i class="bx bxl-vk social__icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </div>
         <div class="welcome__png">
             <img class="original__img" src="assets/img/panza.png" alt="Anton">
             <img class="duplicated__img mask__yellow" src="assets/img/panza-yellow.png" alt="Anton">
             <img class="duplicated__img mask__red" src="assets/img/panza-red.png" alt="Anton">
             <img class="duplicated__img mask__blue" src="assets/img/panza-blue.png" alt="Anton">
-            <p>Be curious, not judgmental</p>
+            <p>Be curious,<br>not judgmental</p>
         </div>
-    </div>
+    </section>
+    <section class="bio">
+        <h2 class="section-title">bio</h2>
+        <p>Hi, there! I'm Anton Panza and now I'm a Bitrix-developer. I’ve been doing this for two years but my views are changing and I am apt to dive into another branch of web developers.</p>
+        <p>My goal is to use a more relevant technology stack while working and that's why I need to inform my thinking with the help of RS School. Hereby, my studying is the way of getting up to a new stage of knowledge.</p>
+    </section>
+    <section class="education" id="education">
+        <h2 class="section-title">education</h2>
+        <ul class="edu__list">
+            <li class="edu__item"><span class="year__frame">2014-2018</span> <span class="name__frame">Pridnestrovian Shevchenko State University</span>,
+                <p>“Software Engineering” profile training “Development of software and information systems”, bachelor</p>
+            </li>
+        </ul>
+    </section>
+    <section class="certificates" id="certificates">
+        <h2 class="section-title">certificates</h2>
+        <ul class="cert__list">
+            <li class="cert__item">
+                <a href="https://dev.1c-bitrix.ru/learning/certificate.php?user=3099985&amp;course=43&amp;student=1b9514385c659f5b65ece2cdb9b51570" target="_blank" class="cert__data">
+                    <h3 class="cert__name">Bitrix Framework developer</h3><span class="cert__info">(2020)</span>
+                </a>
+            </li>
+            <li class="cert__item">
+                <a href="https://dev.1c-bitrix.ru/learning/certificate.php?user=3099985&amp;course=139&amp;student=f77e3377e4d185176493e5e0030981c0" target="_blank" class="cert__data">
+                    <h3 class="cert__name">Website promotion and Marketing</h3><span class="cert__info">(2019)</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="experience" id="experience">
+        <h2 class="section-title">experience</h2>
+        <ul class="experience__list">
+            <li class="experience__item"><span class="year__frame">2018-2019</span> <span class="name__frame">Metacommerce</span>, JS-developer (develop company app crowler)</li>
+            <li class="experience__item"><span class="year__frame">2019-2021</span> <span class="name__frame">RichCode</span>, Bitrix-developer (develop site on CMS 1c-Bitrix framework)</li>
+            <li class="experience__item"><span class="year__frame">2021-NOW</span> <span class="name__frame">Freelancer</span>, web design and developing</li>
+        </ul>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="section-title">skills</h2>
+        <ul class="skill__list">
+            <li class="skill__item">PHP</li>
+            <li class="skill__item">html5 + css3</li>
+            <li class="skill__item">JavaScript</li>
+            <li class="skill__item">Figma</li>
+        </ul>
+    </section>
+    <section class="code__example" id="code__example">
+        <h2 class="section-title">code example</h2>
+        <div class="language-javascript highlighter-rouge">
+            <div class="highlight"><pre class="highlight"><code><span class="c1">// program to merge property of two objects</span>
+
+<span class="c1">// object 1</span>
+<span class="kd">const</span> <span class="nx">person</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Anton</span><span
+                        class="dl">'</span><span class="p">,</span>
+    <span class="na">surname</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Panza</span><span
+                        class="dl">'</span><span class="p">,</span>
+    <span class="na">age</span><span class="p">:</span><span class="mi">25</span>
+<span class="p">}</span>
+
+<span class="c1">// object 2</span>
+<span class="kd">const</span> <span class="nx">student</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">course</span><span class="p">:</span> <span class="dl">'</span><span class="s1">stage#0</span><span
+                        class="dl">'</span><span class="p">,</span>
+    <span class="na">gender</span><span class="p">:</span> <span class="dl">'</span><span class="s1">male</span><span
+                        class="dl">'</span>
+<span class="p">}</span>
+
+<span class="c1">// merge two objects</span>
+<span class="kd">const</span> <span class="nx">newObj</span> <span class="o">=</span> <span
+                        class="nb">Object</span><span class="p">.</span><span class="nx">assign</span><span
+                        class="p">(</span><span class="nx">person</span><span class="p">,</span> <span class="nx">student</span><span
+                        class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span
+                        class="nx">newObj</span><span class="p">);</span>
+</code></pre>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="section-title">skills</h2>
+        <ul class="project__list">
+            <li class="project__item">Project Name</li>
+            <li class="project__item">Project Name</li>
+        </ul>
+    </section>
 </main>
 <footer class="copyright">footer</footer>
 
