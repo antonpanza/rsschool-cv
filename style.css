@@ -420,3 +420,7 @@ section.welcome {
         max-height: 700px;
     }
 }
+
+.project__item a {
+    color: #000;
+}
